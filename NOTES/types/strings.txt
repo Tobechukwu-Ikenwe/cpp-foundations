@@ -1,0 +1,7 @@
+use std::string for all general text handling in C++
+avoid char * unless working with memory
+
+example:
+logger message should be stored as std::string
+
+when should char* be used over std:;string
