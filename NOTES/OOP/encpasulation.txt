@@ -1,0 +1,6 @@
+the data members stored in classes must not change state
+
+example
+private:
+   std::chrono::system_clock::time_point time_stamp;
+This is wrong because time_stamp changes with every function call.
